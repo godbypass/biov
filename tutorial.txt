@@ -1,0 +1,100 @@
+Cyberpunk Interactive Bio Page
+🚀 Key Features
+🌈 Dynamic Personalization
+Name & Title Rotator: Cycles through multiple names/titles automatically
+
+Customizable Stats: Animated counters for projects, followers, etc.
+
+Skill Bars: Visual representation of your abilities with percentages
+
+🎮 Interactive Elements
+3D Hover Effects: Container tilts with mouse movement
+
+Theme Toggle: Switch between dark/light modes
+
+Music Player: Background audio control
+
+Secret Easter Egg: Konami code activation (↑↑↓↓←→←→BA)
+
+🎨 Visual Effects
+Particle.js Background: Interactive animated particles
+
+Video Background: YouTube video backdrop (muted by default)
+
+Neon Glow Effects: Pulsing animations and gradients
+
+Floating Animation: Profile picture gently bounces
+
+📱 Responsive Design
+Works on all devices (mobile, tablet, desktop)
+
+Auto-adjusting layout and font sizes
+
+Touch-friendly interactive elements
+
+🛠️ Easy Customization
+Basic Changes (No Coding Needed)
+Change all "HISOKIX" to your name using Find/Replace
+
+Update links to your social profiles
+
+Replace the profile image URL
+
+Modify the stats (projects count, followers, etc.)
+
+Advanced Customization
+javascript
+// In the config object (around line 500):
+const config = {
+    names: ["YOUR NAME", "NICKNAME", "TITLE"], // Up to 4 variations
+    titles: ["Your Profession", "Other Description"],
+    stats: {
+        projects: 0,    // Your project count
+        followers: 0,   // Your follower count
+        streams: 0      // Your stream count
+    },
+    // Change animation speed (milliseconds)
+    changeInterval: 2500,
+    // Toggle features on/off
+    enableSound: true,
+    enableParticles: true
+};
+🌐 Hosting Options
+Free Options
+GitHub Pages
+
+bash
+git clone https://github.com/YOURUSERNAME/YOURUSERNAME-bio.git
+Netlify Drop - Drag and drop your index.html
+
+Vercel - Instant deployment
+
+Premium Options
+Custom domain connection
+
+Form integrations
+
+Analytics tracking
+
+💡 Pro Tips
+For a quick setup:
+
+Just change the name, image, and links
+
+Delete sections you don't need
+
+Make it yours:
+
+Try different color schemes in the :root section
+
+Add/remove social media icons as needed
+
+Adjust the stats to match your numbers
+
+Troubleshooting:
+
+If particles don't load, check your ad blocker
+
+Video not working? Try a different YouTube URL
+
+Mobile issues? Check the responsive breakpoints
